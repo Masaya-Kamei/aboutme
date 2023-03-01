@@ -28,7 +28,7 @@
 
 ### プロジェクト一覧
 
-| プロジェクト名  | 説明 | キーワード |
+| プロジェクト名  | 概要 | キーワード |
 | ----------- | --- | ------- |
 | [ft\_printf](https://github.com/Masaya-Kamei/ft_printf)| printfを再実装 <ul><li>変換指定子: `c`,`s`,`p`,`d`,`i`,`u`,`x`,`X`,`%`</li><li>フラグ類: `0`,`*`,`最小フィールド幅`,`精度`</li></ul> | `C`,<br>`コマンドライン引数`,`可変長引数` |
 | [ft\_containers](https://github.com/Masaya-Kamei/ft_containers) | C++のコンテナ`vector`,`map`,`stack`を再実装　<ul><li>vector: 動的配列を扱うテンプレートクラス</li><li>map: 連想配列 (AVL木で実装) を扱うテンプレートクラス</li><li>stack: スタックを扱うテンプレートクラス</li></ul> | `C++`,<br>`allocator`,`iterator`,<br>`平衡二分木`,`AVL木`,<br>`テンプレート`,`Google Test` |
