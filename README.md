@@ -34,11 +34,11 @@
 | [philosophers](https://github.com/Masaya-Kamei/philosophers) | [食事する哲学者の問題](https://ja.wikipedia.org/wiki/%E9%A3%9F%E4%BA%8B%E3%81%99%E3%82%8B%E5%93%B2%E5%AD%A6%E8%80%85%E3%81%AE%E5%95%8F%E9%A1%8C)を題材にした並列処理に関する問題 <ul><li>哲学者の位置により右手か左手を優先する解法で実装</li><li>マルチスレッド、マルチプロセス</li><li>ミューテックスやセマフォによる排他制御</li></ul> | `C`,<br>`マルチスレッド`,<br>`マルチプロセス`,<br>`ミューテックス`,`セマフォ`,<br>`デッドロック` |
 | [minishell](https://github.com/Masaya-Kamei/minishell) | bashの再実装 <ul><li>多段パイプ (`\|`)</li><li>リダイレクト,ヒアドキュメント (`>`,`<`,`>>`,`<<`)</li><li>$PATHにあるコマンド実行</li><li>ビルトイン関数(`echo`,`cd`,`pwd`,`export`,`unset`,`env`,`exit`)</li><li>クォーテーション(`'`,`"`)</li><li>環境変数のセットや展開</li><li>シグナルハンドル,EOF (`Ctrl+C`,`Ctrl+\`,`Ctrl+D`)</li><li>2人チーム</li></ul> | `C`,<br>`構文解析`,`マルチプロセス`,<br>`ファイルディスクリプタ`,<br>`パイプ`,`リダイレクト`,<br>`環境変数`,<br>`シグナルハンドリング` |
 | 3D |
-| [fdf](https://github.com/Masaya-Kamei/fdf) | 等角投影を使った3Dプロジェクション<ul><li>デモ動画: [fdf #demo -github](https://github.com/Masaya-Kamei/fdf#demo)</li><li>平行投影の一種である等角投影を実装</li><li>マップの回転やズームが可能</li><li>3次元の点を2次元の面に正射影して基底変換する</li></ul> | `C`,<br>`3Dプロジェクション`,<br>`平行投影`,`等角投影`,<br>`ベクトル`,`正射影`,<br>`基底変換`,`軸周りの回転` |
-| [term3d](https://github.com/Masaya-Kamei/term3d) | 透視投影を使った3Dプロジェクション<ul><li>デモ動画: [term3d #demo -github](https://github.com/Masaya-Kamei/term3d#demo)</li><li>透視投影を実装</li><li>等角投影に加えて奥行きを表す値で割ることで、<br>遠くにあるものほど小さく表示</li></ul> | `C`,<br>`3Dプロジェクション`,<br>`透視投影`,<br>`ベクトル`,`正射影`,<br>`基底変換`,`軸周りの回転` |
+| [fdf](https://github.com/Masaya-Kamei/fdf) | 等角投影を使った3Dプロジェクション<ul><li>デモ動画: [fdf #demo -github](https://github.com/Masaya-Kamei/fdf#demo)</li><li>平行投影の一種である等角投影を実装</li><li>マップの回転やズームが可能</li><li>3次元の点をxy平面に正射影して基底変換する</li></ul> | `C`,<br>`3Dプロジェクション`,<br>`平行投影`,`等角投影`,<br>`ベクトル`,`正射影`,<br>`基底変換`,`軸周りの回転` |
+| [term3d](https://github.com/Masaya-Kamei/term3d) | 透視投影を使った3Dプロジェクション<ul><li>デモ動画: [term3d #demo -github](https://github.com/Masaya-Kamei/term3d#demo)</li><li>透視投影を実装</li><li>等角投影法に加えてz値で割ることで奥行きを表現</li></ul> | `C`,<br>`3Dプロジェクション`,<br>`透視投影`,<br>`ベクトル`,`正射影`,<br>`基底変換`,`軸周りの回転` |
 | cub3d |
 | アセンブリ |
-| libasm | アセンブリ言語でCの関数を再実装 <ul><li>メモリ、スタック、レジスタを使って操作</li><li>システムコールを呼ぶ</li><li>スタックフレームを用いてローカル変数を管理</li><li>メモリアライメントを意識</li></ul> | `アセンブリ言語`,<br>`メモリ`,`レジスタ`,<br>`スタック`,`スタックフレーム`,<br>`メモリアライメント`,`セクション`,<br>`システムコール`,<br>`x86-64`,`呼出規約` |
+| libasm | アセンブリ言語でCの関数を再実装 <ul><li>メモリ、スタック、レジスタを使って操作</li><li>システムコールを呼ぶ</li><li>スタックフレームを用いてローカル変数を管理</li><li>メモリアライメントを意識</li></ul> | `アセンブリ言語`,<br>`メモリ`,`レジスタ`,<br>`スタック`,`スタックフレーム`,<br>`メモリアライメント`,<br>`セクション`,<br>`システムコール`,<br>`x86-64`,`呼出規約` |
 | インフラ |
 | [inception](https://github.com/Masaya-Kamei/inception) | docker composeを使ったLEMP環境の構築　<ul><li>`nginx` <--> `wordpress+php-fpm` <--> `mariadb`</li><li>Dockerイメージはすべて`Alpine Linux`を使用</li><li>Docker volume を使用してデータ永続化</li></ul> | `docker compose`,<br>`alpine`,`nginx`,<br>`wordpress`,`php-fpm`,<br>`MariaDB`,`adminer`,<br>`redis` |
 | ft_services |
