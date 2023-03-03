@@ -27,7 +27,7 @@
 
 ### プロジェクト一覧
 
-| プロジェクト名 | 概要 <img width=900/> | キーワード <img width=100/> |
+| プロジェクト名 | 概要 <img width=9000/> | キーワード <img width=100/> |
 | ----------- | --- | ------- |
 | [ft\_printf](https://github.com/Masaya-Kamei/ft_printf) | printfを再実装 <ul><li>変換指定子: `c`,`s`,`p`,`d`,`i`,`u`,`x`,`X`,`%`</li><li>フラグ類: `0`,`*`,`最小フィールド幅`,`精度`</li></ul> | `C`,<br>`可変長引数` |
 | [fdf](https://github.com/Masaya-Kamei/fdf) | 等角投影を使った3Dプロジェクション<ul><li>デモ動画: [fdf#demo -github](https://github.com/Masaya-Kamei/fdf#demo)</li><li>平行投影の一種である等角投影を実装</li><li>マップの回転やズームが可能</li><li>3次元の点を2次元の面に正射影して基底変換する</li></ul> | `C`,<br>`3Dプロジェクション`,<br>`平行投影`,`等角投影`,<br>`ベクトル`,`正射影`,<br>`基底変換`,`軸周りの回転` |
