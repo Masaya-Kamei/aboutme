@@ -32,7 +32,7 @@
 | C言語 |
 | [ft\_printf](https://github.com/Masaya-Kamei/ft_printf) | printfを再実装 <ul><li>変換指定子: `c`,`s`,`p`,`d`,`i`,`u`,`x`,`X`,`%`</li><li>フラグ類: `0`,`*`,`最小フィールド幅`,`精度`</li></ul> | `C`,<br>`可変長引数` |
 | [philosophers](https://github.com/Masaya-Kamei/philosophers) | [食事する哲学者の問題](https://ja.wikipedia.org/wiki/%E9%A3%9F%E4%BA%8B%E3%81%99%E3%82%8B%E5%93%B2%E5%AD%A6%E8%80%85%E3%81%AE%E5%95%8F%E9%A1%8C)を題材にした並列処理に関する問題 <ul><li>哲学者の位置により右手か左手を優先する解法で実装</li><li>マルチスレッド、マルチプロセス</li><li>ミューテックスやセマフォによる排他制御</li></ul> | `C`,<br>`マルチスレッド`,<br>`マルチプロセス`,<br>`ミューテックス`,`セマフォ`,<br>`デッドロック` |
-| [minishell](https://github.com/Masaya-Kamei/minishell) | bashの再実装 <ul><li>多段パイプ (`\|`)</li><li>リダイレクト,ヒアドキュメント (`>`,`<`,`>>`,`<<`)</li><li>$PATHにあるコマンド実行</li><li>ビルトイン関数(`echo`,`cd`,`pwd`,`export`,`unset`,`env`,`exit`)</li><li>クォーテーション(`'`,`"`)</li><li>環境変数</li><li>シグナルハンドル,EOF (`Ctrl+C`,`Ctrl+\`,`Ctrl+D`)</li><li>2人チーム</li></ul> | `C`,<br>`構文解析`,`マルチプロセス`,<br>`ファイルディスクリプタ`,<br>`パイプ`,`リダイレクト`,<br>`環境変数`,<br>`シグナルハンドリング` |
+| [minishell](https://github.com/Masaya-Kamei/minishell) | bashの再実装 <ul><li>多段パイプ (`\|`)</li><li>リダイレクト,ヒアドキュメント (`>`,`<`,`>>`,`<<`)</li><li>$PATHにあるコマンド実行</li><li>ビルトイン関数(`echo`,`cd`,`pwd`,`export`,`unset`,`env`,`exit`)</li><li>クォーテーション(`'`,`"`)</li><li>環境変数のセットや展開</li><li>シグナルハンドル,EOF (`Ctrl+C`,`Ctrl+\`,`Ctrl+D`)</li><li>2人チーム</li></ul> | `C`,<br>`構文解析`,`マルチプロセス`,<br>`ファイルディスクリプタ`,<br>`パイプ`,`リダイレクト`,<br>`環境変数`,<br>`シグナルハンドリング` |
 | 3D |
 | [fdf](https://github.com/Masaya-Kamei/fdf) | 等角投影を使った3Dプロジェクション<ul><li>デモ動画: [fdf #demo -github](https://github.com/Masaya-Kamei/fdf#demo)</li><li>平行投影の一種である等角投影を実装</li><li>マップの回転やズームが可能</li><li>3次元の点を2次元の面に正射影して基底変換する</li></ul> | `C`,<br>`3Dプロジェクション`,<br>`平行投影`,`等角投影`,<br>`ベクトル`,`正射影`,<br>`基底変換`,`軸周りの回転` |
 | [term3d](https://github.com/Masaya-Kamei/term3d) | 透視投影を使った3Dプロジェクション<ul><li>デモ動画: [term3d #demo -github](https://github.com/Masaya-Kamei/term3d#demo)</li><li>透視投影を実装</li><li>等角投影に加えて奥行きを表す値で割ることで、<br>遠くにあるものほど小さく表示</li></ul> | `C`,<br>`3Dプロジェクション`,<br>`透視投影`,<br>`ベクトル`,`正射影`,<br>`基底変換`,`軸周りの回転` |
@@ -40,7 +40,7 @@
 | アセンブリ |
 | libasm |
 | インフラ |
-| inception |
+| [inception](https://github.com/Masaya-Kamei/inception) | docker composeを使ったLEMP環境の構築　<ul><li>`nginx` <--> `wordpress+php-fpm` <--> `mariadb`</li><li>Dockerイメージはすべて`Alpine Linux`を使用</li><li>Docker volume を使用してデータ永続化</li></ul> | `docker compose`,<br>`alpine`,`nginx`,<br>`wordpress`,`php-fpm`,<br>`MariaDB`,`adminer`,<br>`redis` |
 | ft_services |
 | C++ |
 | [ft\_containers](https://github.com/Masaya-Kamei/ft_containers) | C++のコンテナ`vector`,`map`,`stack`を再実装　<ul><li>vector: 動的配列を扱うテンプレートクラス</li><li>map: 連想配列 (AVL木で実装) を扱うテンプレートクラス</li><li>stack: スタックを扱うテンプレートクラス</li></ul> | `C++`,<br>`allocator`,`iterator`,<br>`平衡二分木`,`AVL木`,<br>`Google Test` |
