@@ -38,7 +38,7 @@
 | [term3d](https://github.com/Masaya-Kamei/term3d) | 透視投影を使った3Dプロジェクション<ul><li>デモ動画: [term3d #demo -github](https://github.com/Masaya-Kamei/term3d#demo)</li><li>透視投影を実装</li><li>等角投影に加えて奥行きを表す値で割ることで、<br>遠くにあるものほど小さく表示</li></ul> | `C`,<br>`3Dプロジェクション`,<br>`透視投影`,<br>`ベクトル`,`正射影`,<br>`基底変換`,`軸周りの回転` |
 | cub3d |
 | アセンブリ |
-| libasm |
+| libasm | アセンブリ言語でCの関数を再実装 <ul><li>メモリ、スタック、レジスタを使って操作</li><li>システムコールを呼ぶ</li><li>スタックフレームを用いてローカル変数を管理</li><li>メモリアライメントを意識</li></ul> | `アセンブリ言語`,<br>`メモリ`,`レジスタ`,<br>`スタック`,`スタックフレーム`,<br>`メモリアライメント`,`セクション`,<br>`システムコール`,<br>`x86-64`,`呼出規約` |
 | インフラ |
 | [inception](https://github.com/Masaya-Kamei/inception) | docker composeを使ったLEMP環境の構築　<ul><li>`nginx` <--> `wordpress+php-fpm` <--> `mariadb`</li><li>Dockerイメージはすべて`Alpine Linux`を使用</li><li>Docker volume を使用してデータ永続化</li></ul> | `docker compose`,<br>`alpine`,`nginx`,<br>`wordpress`,`php-fpm`,<br>`MariaDB`,`adminer`,<br>`redis` |
 | ft_services |
