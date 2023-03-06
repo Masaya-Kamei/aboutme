@@ -40,6 +40,7 @@
 | アセンブリ |
 | [libasm](https://github.com/Masaya-Kamei/libasm) | アセンブリ言語でCの関数を再実装 <ul><li>メモリ、スタック、レジスタを使って操作</li><li>システムコールを呼ぶ</li><li>スタックフレームを用いてローカル変数を管理</li><li>メモリアライメントを意識</li></ul> | `アセンブリ言語`,<br>`メモリ`,`レジスタ`,<br>`スタック`,`スタックフレーム`,<br>`メモリアライメント`,<br>`セクション`,<br>`システムコール`,<br>`x86-64`,`呼出規約` |
 | インフラ |
+| [netpractice](https://github.com/Masaya-Kamei/netpractice) | 小規模なネットワークを構成するクイズ <ul><li>アドレスクラスではなくCIDRで構成</li><li>スイッチとルーターを扱う</li><li>アドレスのレンジがかぶらないように設計する</li></ul> | `ネットワーク`,`IP`,<br>`CIDR`,`サブネットマスク`,<br>`スイッチ`,`ルーター`,<br>`ルーティングテーブル` |
 | [inception](https://github.com/Masaya-Kamei/inception) | docker composeを使ったLEMP環境の構築　<ul><li>`nginx` <--> `wordpress+php-fpm` <--> `mariadb`</li><li>Dockerイメージはすべて`Alpine Linux`を使用</li><li>Docker volume を使用してデータ永続化</li></ul> | `docker compose`,<br>`alpine`,`nginx`,<br>`wordpress`,`php-fpm`,<br>`MariaDB`,`adminer`,<br>`redis` |
 | ft_services |
 | C++ |
