@@ -36,7 +36,7 @@
 | 3D |
 | [fdf](https://github.com/Masaya-Kamei/fdf) | 等角投影を使った3Dプロジェクション<ul><li>デモ動画: [fdf #demo -github](https://github.com/Masaya-Kamei/fdf#demo)</li><li>平行投影の一種である等角投影を実装</li><li>マップの回転やズームが可能</li><li>3次元の点をxy平面に正射影して基底変換する</li></ul> | `C`,<br>`3Dプロジェクション`,<br>`平行投影`,`等角投影`,<br>`ベクトル`,`正射影`,<br>`基底変換`,`軸周りの回転` |
 | [term3d](https://github.com/Masaya-Kamei/term3d) | 透視投影を使った3Dプロジェクション<ul><li>デモ動画: [term3d #demo -github](https://github.com/Masaya-Kamei/term3d#demo)</li><li>透視投影を実装</li><li>等角投影法に加えてz値で割ることで奥行きを表現</li></ul> | `C`,<br>`3Dプロジェクション`,<br>`透視投影`,<br>`ベクトル`,`正射影`,<br>`基底変換`,`軸周りの回転` |
-| cub3d |
+| [cub3d](https://github.com/Masaya-Kamei/cub3d) | レイキャスティングで実装した初期のFPSゲーム <ul><li>デモ動画: [cub3d #demo -github](https://github.com/Masaya-Kamei/cub3d#demo)</li><li>壁で囲まれたマップを自由に移動できる</li><li>障害物を設置できる</li><li>ゲーム画面をbmpで保存できる</li><li>設定ファイルでマップや画像などが設定できる</li><li>2次元のマップ上でプレイヤーの向きの一定範囲に<br>光線を飛ばして壁にぶつかったときの距離で<br>描写する壁の高さを決定して縦線1本引く</li></ul> | `C`,<br>`レイキャスティング`,<br>`ベクトル`,`内積`,<br>`bmp` |
 | アセンブリ |
 | libasm | アセンブリ言語でCの関数を再実装 <ul><li>メモリ、スタック、レジスタを使って操作</li><li>システムコールを呼ぶ</li><li>スタックフレームを用いてローカル変数を管理</li><li>メモリアライメントを意識</li></ul> | `アセンブリ言語`,<br>`メモリ`,`レジスタ`,<br>`スタック`,`スタックフレーム`,<br>`メモリアライメント`,<br>`セクション`,<br>`システムコール`,<br>`x86-64`,`呼出規約` |
 | インフラ |
